@@ -1,3 +1,82 @@
 1. What are the negations of the following propositions?
+  a) Juan and Pedro are friends.
+    Juan and Pedro are not friends.
+  
+  b) There are 15 items in the fridge.
+    There are not 15 items in the fridge.
 
-a) Juan and Pedro are friends.
+  c) Liz sent over 200 emails yesterday.
+    Liz did not send more than 200 emails yesterday.
+
+  d) 169 is a perfect square.
+    169 is not a perfect square.
+  
+2. Determine if each of these conditional statements is true or false:  
+  a) If 1 + 1 = 2, then Griffins exist.
+    p: 1 + 1 = 2
+    q: Griffins exist.
+    (If p, then q = p → q)
+    p = true
+    q = False
+    In implications, if the antecedent or premise (p) is True, but the consequence (q) is False, then the final result ends up being *False*.
+
+  b) If 3 + 1 = 5, then rhinos fly.
+    p: 3 + 1 = 5
+    q: Rhinos fly.
+    (If p, then q = p → q)
+    p = false (3 + 1 ≠ 5 // 3 + 1 = 4)
+    q = false (Rhinos cannot flight.)
+    In Implications, if both propositions are false, the final result ends up being *True*.
+  
+  c) If 2 + 6 = 2, then cats fly.
+    p: 2 + 6 = 2
+    q: Cats fly
+    (If p, then q = p → q)
+    p = false (2 + 6 ≠ 2 // 2 + 6 = 8)
+    q = false (Cats do not have the property of flying.)
+    In Implications, if both propositions are false, the final result ends up being *True*.
+  
+  d) If 3 + 3 = 4, then 4 + 7 = 11.
+    p: 3 + 3 = 4
+    q: 4 + 7 = 11
+    (If p, then q = p → q)
+    p = false (3 + 3 ≠ 4 // 3 + 3 = 6)
+    q = true (4 + 7 = 11)
+    In implications, if the antecedent or premise (p) is false, but the consequence (q) is true, then the final result ends up being *True*.
+  
+3. State the converse, contrapositive, and inverse of each of these conditional statements:
+  a) If it snows tonight, I'll stay home.
+    p: It snows tonight.
+    q: I'll stay home.
+    Reciprocal (Order Exchange): If I stayed home, then it's snowing tonight.
+    Inverse (negation): If it doesn't snow tonight, then I won't stay home.
+    Contrapositive (Exchange order and denial): If I didn't stay home, then it didn't snow tonight.
+
+  b) I go to the beach every time it's a sunny summer day.
+    whenever = whenever // q whenever p
+    p: It is a sunny summer day.
+    q: I'm going to the beach.
+    Reciprocal (Order Exchange): It's a sunny summer day every time I go to the beach.
+    Reverse (negation): I don't go to the beach every time it's not a sunny summer day.
+    Contrapositive (Exchange order and negation): It's not a sunny summer day every time I don't go to the beach.
+
+  c) When I stay up late, it is necessary for me to sleep until noon.
+    When = If p, q
+    p: I stay up late.
+    q: You need to sleep until noon.
+    Reciprocal (Exchange Order): If I need to sleep until noon, then I stay up late.
+    Inverse (negation): When I don't stay up late, I don't need to sleep until noon.
+    Contrapositive (Exchange order and denial): If I don't need to sleep until noon, then I don't stay up late.
+    
+4. How many rows appear in a truth table for each of these compound statements?
+  a) (q → ¬p) ∨ (¬p → ¬q)
+    (p,q) = 2^2 = 4 rows.
+  
+  b) (p ∨ ¬r) ∧ (p ∨ ¬s)
+    (p,r,s) = 2^3 = 8 rows.
+    
+  c) (p → r) ∨ (¬s → ¬t) ∨ (¬u → v)
+    (p,r,s,t,u,v) = 2^6 = 64 rows.
+
+  d) (p ∧ r ∧ s) ∨ (q ∧ t) ∨ (r ∧ ¬t)
+    (p,q,r,s,t) = 2^5 = 32 rows.
