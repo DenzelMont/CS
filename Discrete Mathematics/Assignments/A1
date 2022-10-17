@@ -42,7 +42,7 @@
     (If p, then q = p → q)
     p = false (3 + 3 ≠ 4 // 3 + 3 = 6)
     q = true (4 + 7 = 11)
-    In implications, if the antecedent or premise (p) is false, but the consequence (q) is true, then the final result ends up being *True*.
+    In implications, if the antecedent or premise (p) is false, but the consequence (q) is true, then the final result ends up being *True*. 
   
 3. State the converse, contrapositive, and inverse of each of these conditional statements:
   a) If it snows tonight, I'll stay home.
