@@ -16,5 +16,11 @@ equivalence to find an equivalent compound statement that does not involve condi
    t  | f  |   f   |      t    |       
    f  | t  |   f   |      t    |    
    f  | f  |   f   |      t    |    
+   
+  b) ¬p → (p → q)
     
-    
+  p | q | p → q | ¬p | ¬p → (p → q) 
+  t | t |   t   |  f |       t
+  t | f |   f   |  f |       t
+  f | t |   t   |  t |       t
+  f | f |   t   |  t |       t
